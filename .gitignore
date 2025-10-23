@@ -1,0 +1,14 @@
+# -------------------------
+# Terraform
+# -------------------------
+# Terraform state file that tracks the current state of your infrastructure
+*.tfstate
+# Backup of the Terraform state file
+*.tfstate.backup
+# Directory where Terraform stores plugins and modules.
+.terraform/
+
+# Private keys and certificates used for SSH or SSL
+*.pem
+*.key
+*.crt
