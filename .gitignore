@@ -5,6 +5,7 @@
 *.tfstate
 # Backup of the Terraform state file
 *.tfstate.backup
+.terraform.lock.hcl
 # Directory where Terraform stores plugins and modules.
 .terraform/
 
